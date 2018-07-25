@@ -1,4 +1,6 @@
 # Write your code here!
-require '/app.rb.'
+require 'sinatra'
+
+require_relative '/app'
 
 run Application
